@@ -18,6 +18,7 @@ As coisas estão ficando confusas
 ... então, aprender outra linguagem de marcação (https://docutils.sourceforge.io/docs/user/rst/quickref.html)... e as fórmulas (latex) e os diagramas (mermaid)?
 
 - https://github.com/mgaitan/sphinxcontrib-mermaid
+- formulas têm suporte nativo: https://stackoverflow.com/questions/3610551/math-in-restructuredtext-with-latex
 
 
 3. Eu queria usar autodoc na documentação do lumache. Achei estranho que não estivesse configurado, ainda mais porque `lumache.py` continha docstrings. Achei umas receitas que achei "complicadas" (meu instinto dizia que não era o jeito "certo"):
