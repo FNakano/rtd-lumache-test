@@ -33,3 +33,11 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# https://stackoverflow.com/questions/65487163/python-sphinx-autodoc-not-rendering-on-readthedocs
+# da execução do readthedocs:
+# Sphinx error:
+# root file /home/docs/checkouts/readthedocs.org/user_builds/rtd-lumache-test-fnakano/checkouts/latest/docs/index.rst not found
+
+sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath("../"))
