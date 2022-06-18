@@ -35,5 +35,7 @@ Pior, em algum momento o jeito complicado era o jeito certo, mas mudou. Depois d
 
 Nisso aprendi que readthedocs indica que a documentação pode ser atualizada com um "implantando", mas não quer dizer que foi compilado e que a documentação está sendo implantada, mas que alguém modificou o código no github e a versão que está no readthedocs está atrasada em relação à versão do github. Tem que compilar na mão ou gerar um webhook.
 
+A documentação gerada a partir deste repositório (este arquivo não está incluído) está em https://rtd-lumache-test-fnakano.readthedocs.io/en/latest/index.html
+
 
 
