@@ -38,6 +38,7 @@ epub_show_urls = 'footnote'
 # da execução do readthedocs:
 # Sphinx error:
 # root file /home/docs/checkouts/readthedocs.org/user_builds/rtd-lumache-test-fnakano/checkouts/latest/docs/index.rst not found
+# comentei as duas linhas abaixo porque a solução recomendada por readthedocs.org é indicar a carga dos arquivos no .readthedocs.yaml
 
-sys.path.insert(0, os.path.abspath("."))
-sys.path.insert(0, os.path.abspath("../"))
+#sys.path.insert(0, os.path.abspath("."))
+#sys.path.insert(0, os.path.abspath("../"))
